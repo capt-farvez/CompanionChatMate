@@ -12,9 +12,9 @@ CompanionChatMate is a chatbot project that aims to provide a friendly and inter
 
    1.  Clone the repository: git clone https://github.com/capt-farvez/CompanionChatMate.git
    2.  Install the required dependencies: pip install -r requirements.txt
-   3.  Obtain OpenAI API credentials: Sign up for an account and obtain the API key.
-    Configure API credentials: Replace 'YOUR_API_KEY' in settings.py with your actual OpenAI API key.
-   4.  Run the development server: python manage.py runserver
+   3.  Install gpt4all : $ pip install gpt4all.
+   4.  Download the Orcamini model: download from your trusted site.
+   5.  Run the development server: $ python manage.py runserver
 
 Note: Ensure that you have Python and Django installed on your system before proceeding with the installation.
 Usage
