@@ -12,7 +12,7 @@ prompt_template = "I'm looking to purchase a new SSD and I'm deciding between tw
 system_template = 'A chat between a curious user and an artificial intelligence assistant, and you are a marketing specialist.'
 
 def chatgen(query):
-    with model.chat_session(prompt_template) as session:
+    with model.chat_session(system_template) as session:
         user_input= query
         response = model.generate(prompt=user_input, max_tokens=1000)
         response = model.current_chat_session[-1]['content']
